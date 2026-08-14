@@ -1,0 +1,154 @@
+body {
+    margin: 10px;
+	padding: 10px;
+    border: 3px solid black;
+	font-family: Arial, Unifont, sans-serif
+}
+.navv{
+	display: flex;
+    gap: 20px;
+	align-items: center;
+	border-bottom: 3px solid black;
+}
+
+nav > a{
+	padding: 0 13px;
+	font-size: 1.4em;
+}
+
+a{
+	color: black;
+	transition: letter-spacing 0.5s;
+}
+a:hover{
+	letter-spacing: 3px;
+}
+
+
+article {
+    margin-top: 75px;
+}
+.title{
+	text-align: center;
+	font-size: 2.5em;
+}
+.center{
+	text-align: center;
+}
+.center2{
+	display: flex;
+	justify-content: center;
+}
+
+article .title{
+	margin-bottom: 15px;
+	transition: letter-spacing 2s cubic-bezier(0.28, 1.6, 0.62, 1);
+}
+article .title:hover{
+	letter-spacing: 9px;
+}
+
+.splitter{
+	border-bottom: 3px solid black;
+	margin: 40px 0 60px 0;
+	clear: right;
+}
+.categories {
+    display: flex;
+    gap: 20px;
+	justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+	gap: 10px;
+    align-items: center;
+	border: 3px solid black;
+	padding: 8px;
+	width: 150px;
+}
+.title-wiki1{
+	font-size: 1.9em; padding: 0 0 8px 0;
+	font-weight: normal;
+}
+.title-wiki2{
+	font-size: 1.6em; padding: 12px 0 0px 0;
+	font-weight: normal;
+}
+#w{
+	margin-left: 15px;
+}
+
+.infobox {
+    float: right;
+    width: 170px;
+	border: 3px solid black;
+	padding: 10px;
+	margin: 0 0 15px 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+}
+
+.infobox > .splitter{
+	border-bottom: 3px solid black;
+	margin: 5px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 10px;
+}
+aside > img{
+	width: 120px;
+}
+
+.info{
+	width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info span:nth-child(even) {
+    text-align: right;
+}
+
+article > .splitter{
+	margin-bottom: 15px;
+}
+
+.box > img{
+	width: 60px;
+}
+
+.notice{
+	border-left: 5px dashed dodgerblue;
+	margin: 3px 0 12px 5px;
+	padding: 9px;
+	min-width: 200px;
+	width: fit-content;
+	max-width: 400px;
+}
+
+.spoiler{
+	border-left-color: red;
+	transform: skew(-14deg);
+	background-color: #f003;
+}
+.spoiler:hover{
+	background-color: #f004;
+}
+.information{
+	border-left: 5px ridge mediumslateblue;
+	background-color: #7B68EE33;
+}
+.information:hover{
+	background-color: #7B68EE44;
+}
+
+.spoiler > span{
+	display: inline-block;
+	transform: skew(14deg);
+	padding-left: 4px;
+}
