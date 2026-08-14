@@ -66,15 +66,17 @@ article .title:hover{
     align-items: center;
 	border: 3px solid black;
 	padding: 8px;
-	width: 150px;
+	min-width: 120px;
 }
 .title-wiki1{
 	font-size: 1.9em; padding: 0 0 8px 0;
 	font-weight: normal;
+	padding-bottom: 0;
 }
 .title-wiki2{
 	font-size: 1.6em; padding: 12px 0 0px 0;
 	font-weight: normal;
+	padding-bottom: 0;
 }
 #w{
 	margin-left: 15px;
