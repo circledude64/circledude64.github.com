@@ -148,9 +148,37 @@ article > .splitter{
 .information:hover{
 	background-color: #7B68EE44;
 }
+.yellow{
+	border-left: 5px double gold;
+	background-color: #ffd70033;
+}.yellow:hover{background-color: #ffd70044;}
 
 .spoiler > span{
 	display: inline-block;
 	transform: skew(14deg);
 	padding-left: 4px;
+}
+
+table{
+	border: 3px solid black;
+	border-spacing: 5px 0;
+	text-align: left;
+	min-width: 100px;
+	border-collapse: collapse;
+}
+th{
+	font-weight: normal;
+	border-bottom: 3px solid black;
+	padding-left: 10px;
+}
+
+td,th{
+	border-width: 2px 0;
+	border-color: black;
+	border-style: solid;
+	padding: 5px;
+}
+
+tbody > tr > td:first-child{
+	text-align: center;
 }
