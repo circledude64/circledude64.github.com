@@ -57,6 +57,7 @@ article .title:hover{
     display: flex;
     gap: 20px;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .box{
