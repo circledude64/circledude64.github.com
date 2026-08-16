@@ -57,7 +57,7 @@ article .title:hover{
     display: flex;
     gap: 20px;
 	justify-content: center;
-	flex-wrap: wrap;
+	flex-wrap: wrap
 }
 
 .box{
@@ -153,6 +153,11 @@ article > .splitter{
 	border-left: 5px double gold;
 	background-color: #ffd70033;
 }.yellow:hover{background-color: #ffd70044;}
+
+.green{
+	border-left: 5px solid mediumseagreen;
+	background-color: #3cb37133;
+}.green:hover{background-color: #3cb37144;}
 
 .spoiler > span{
 	display: inline-block;
