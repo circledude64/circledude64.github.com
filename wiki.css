@@ -43,7 +43,7 @@ article {
 
 article .title{
 	margin-bottom: 15px;
-	transition: letter-spacing 1s cubic-bezier(0.28, 1.8, 0.62, 1);
+	transition: letter-spacing 1.4s cubic-bezier(0.28, 1.8, 0.62, 1);
 }
 article .title:hover{
 	letter-spacing: 9px;
