@@ -1,15 +1,35 @@
+:root{
+	--black: black;
+	--white: white;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root{
+		--black: white;
+		--white: #11112f;
+	}
+	img{
+		background-color: white;
+	}
+	.navv .title img {
+		background-color: transparent;
+	}
+}
+
 body {
     margin: 10px;
 	padding: 10px;
-    border: 3px solid black;
+    border: 3px solid var(--black);
 	font-family: Arial, Unifont, sans-serif;
-	background: white;
+	background: var(--white);
+	color: var(--black);
 }
+
 .navv{
 	display: flex;
     gap: 20px;
 	align-items: center;
-	border-bottom: 3px solid black;
+	border-bottom: 3px solid var(--black);
 }
 
 nav > a{
@@ -18,7 +38,7 @@ nav > a{
 }
 
 a{
-	color: black;
+	color: var(--black);
 	transition: letter-spacing 0.5s;
 }
 a:hover{
@@ -50,7 +70,7 @@ article .title:hover{
 }
 
 .splitter{
-	border-bottom: 3px solid black;
+	border-bottom: 3px solid var(--black);
 	margin: 40px 0 60px 0;
 	clear: right;
 }
@@ -66,7 +86,7 @@ article .title:hover{
     flex-direction: column;
 	gap: 10px;
     align-items: center;
-	border: 3px solid black;
+	border: 3px solid var(--black);
 	padding: 8px;
 	min-width: 120px;
 }
@@ -87,7 +107,7 @@ article .title:hover{
 .infobox {
     float: right;
     width: 200px;
-	border: 3px solid black;
+	border: 3px solid var(--black);
 	padding: 10px;
 	margin: 0 0 15px 15px;
 	display: flex;
@@ -97,7 +117,7 @@ article .title:hover{
 }
 
 .infobox > .splitter{
-	border-bottom: 3px solid black;
+	border-bottom: 3px solid var(--black);
 	margin: 5px 0;
     width: 100%;
     display: grid;
@@ -167,7 +187,7 @@ article > .splitter{
 }
 
 table{
-	border: 3px solid black;
+	border: 3px solid var(--black);
 	border-spacing: 5px 0;
 	text-align: left;
 	min-width: 100px;
@@ -175,13 +195,13 @@ table{
 }
 th{
 	font-weight: normal;
-	border-bottom: 3px solid black;
+	border-bottom: 3px solid var(--black);
 	padding-left: 10px;
 }
 
 td,th{
 	border-width: 2px 0;
-	border-color: black;
+	border-color: var(--black);
 	border-style: solid;
 	padding: 5px;
 }
