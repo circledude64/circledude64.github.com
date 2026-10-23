@@ -35,7 +35,7 @@ a{
     justify-content: center;
     gap: 30px;
 }
-.box{
+.box1{
     border: 2px solid black;
     padding: 10px;
 	background-color: white;
@@ -50,16 +50,17 @@ a{
 	perspective: 300px;
 	transform: scale(1);
 	corner-shape: scoop;
+	perspective: 300px;
 }
 
-.box#brg{
+.box1#brg{
 	corner-shape: square;
 	border-radius: 13px;
 }
 
-.box:hover{
-    border-radius: 8px;
-	transform: scale(1.04) rotateZ(3deg);
+.box1:hover{
+    border-radius: 10px;
+	transform: scale(1.04) rotate3d(0, 0, 1, var(--rotation)) translate(0,-5px);
 }
 
 html, body {
@@ -67,4 +68,23 @@ html, body {
     padding: 10px;
     font-family: Arial, Unifont, sans-serif;
 	background-color: #111131;
+}
+
+.box2{
+    border: 2px solid black;
+    padding: 10px;
+	background-color: white;
+    min-width: 200px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 600px;
+	overflow-wrap: anywhere;
+}
+
+.the{
+	text-align: center;
+	user-select: none;
 }

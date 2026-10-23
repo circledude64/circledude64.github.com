@@ -10,16 +10,22 @@
     <div class="container1">
         <div class="header">CIRCLEDUDE64</div>
     </div>
-	<div style="text-align: center;"><img style="width: 200px;" src="./c5/e797f52876c7d58a5071f64c4985daca01d087fa.gif"></div><br>
-    <div class="flex">
-        <a href="https://circledude-64.itch.io/ball-race-game"><div class="box" id="brg" style="background-image: linear-gradient(180deg, #c3c3c3, #878787); border-image: linear-gradient(0deg, #c3c3c3, #878787) 1; border-width: 4px;"><img src="./media/logo no bg.png" style="width: 270px;"><br>ball race game</div></a>
-		<a href="https://circledude-64.itch.io/the-boredom-game"><div class="box" style="background-image: url('./media/tbg.png'); background-size: 100%; background-position: center; height: 118px;"></div></a>
+	<div style="text-align: center;"><img style="width: 200px;" src="./c5/e797f52876c7d58a5071f64c4985daca01d087fa.gif"></div><br><br>
+	<div class="flex">
+	<div class="box2 the">discord: circledude.64<br>free to DM</div></div><p><br></p>
+    <div class="flex" id="aga">
+        <a href="https://circledude-64.itch.io/ball-race-game"><div class="box1" id="brg" style="background-image: linear-gradient(180deg, #c3c3c3, #878787); border-image: linear-gradient(0deg, #c3c3c3, #878787) 1; border-width: 4px;"><img src="./media/logo no bg.png" style="width: 270px;"><br>ball race game</div></a>
+		<a href="https://circledude-64.itch.io/the-boredom-game"><div class="box1" style="background-image: url('./media/tbg.png'); background-size: 100%; background-position: center; height: 118px;"></div></a>
+		<a href="https://circledude-64.itch.io/shitty-fight"><div class="box1" style="background-image: url('./media/angryimg (15).png'); background-size: 100% 100%; background-position: center; height: 118px;"><b>shitty fight</b></div></a>
+		<a href="https://circledude-64.itch.io/speeds-level-workshop"><div class="box1" style="background-image: url('./media/slw.png'); background-size: 130%; background-position: center; height: 118px;"></div></a>
+		<div class="box1">i'll update/make games when <br>people are interested in them
+		<p>could you try some of them and leave a comment?</p></div>
     </div>
 	<p><br></p>
 	<div class="flex">
-	    <div class="box"><a href="wiki.html">ball race game wiki</a></div>
-        <div class="box" id="advice">click me for AAAAAAAAA</div>
-        <div class="box">more soon™ when people interest in my games</div>
+	    <div class="box1" style="--rotation: 3deg;"><a href="wiki.html"">ball race game wiki</a></div>
+        <div class="box2" onclick="new Audio('media/tin 5.mp3').play()">click me for AAAAAAAAA</div>
+		<div class="box1" style="--rotation: -3deg;"><a href="./fun/buttons.html">buttons</a></div>
 	</div>
 	<script>
 	const things = [
@@ -65,6 +71,14 @@
 	function advice(){
 		document.getElementById("advice").textContent = things[Math.floor(Math.random() * things.length)]
 	}
+	
+	window.addEventListener("load", () => {
+		document.querySelectorAll(".box1").forEach(box => {
+			if (!box.style.getPropertyValue("--rotation")) {
+				box.style.setProperty("--rotation", `${Math.random() * 8 - 4}deg`);
+			}
+		});
+	});
 	</script>
 </body>
 </html>
