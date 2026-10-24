@@ -52,6 +52,9 @@ a{
 	corner-shape: scoop;
 	perspective: 300px;
 }
+.flex#aga > a > .box1{
+	height: 120px;
+}
 
 .box1#brg{
 	corner-shape: square;
