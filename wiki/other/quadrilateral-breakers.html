@@ -34,28 +34,48 @@
 		</span>
 		</aside>
 		<div class="notice spoiler"><span>SPOILER ALERT<br>extensive gameplay content</span></div>
-		<div class="notice yellow"><span>work in progress<br>30/116 balls</span></div>
+		<div class="notice yellow"><span>work in progress<br>some balls missing</span></div>
 		<a href="https://leftquadrilateral.itch.io/quadrilateral-breakers"><b>Quadrilateral Breakers</b></a> (shortened to QB) is a game developed by LeftQuadrilateral.
 		<h2 class="title-wiki2">Gameplay</h2>
 		• The player selects 2 balls from categories of:<br>
 		<span class="d">• Block breakers damage blocks on contact (the largest category)</span><br>
 		<span class="d">• Weaponballs damage blocks with their weapons instead</span><br>
 		<span class="d">• Shooters shoot bullets at the blocks</span><br>
+		• The balls, once selected, can also be adjusted for:<br>
+		<span class="d">• Speed (speed multiplier, default 1)</span><br>
+		<span class="d">• Size (default 100)</span><br>
+		<span class="d">• Gravity (gravity multiplier, default -5)</span><br>
+		<span class="d">• Name (Name)</span><br>
 		• Then they press the "Confirm" button to start the fight, which consists of the selected balls breaking through 3 blocks to reach the finish line below.<br>
 		<div class="splitter"></div>
-		<h2 class="title-wiki2">Settings</h2>
+		<aside class="infobox" style="width: auto;"><img src="../../media/wZQOBCNToA.png" style="width: 320px;" alt="">Ball selection menu</aside>
+		<h2 class="title-wiki2">Interfaces</h2>
+		<h3 class="title-wiki3">Main menu</h3>
+		The game's main menu offers:
+		• the "Play" button (enters the ball selection menu)<br>
+		• Multiplayer (usability not verified)<br>
+		• Special Thanks (credits) button<br>
+		• and the Launcher, to launch/download older versions<br>
+		<h3 class="title-wiki3">Ball selection menu</h3>
+		The top bar of this menu features:
+		• Exit button (exits to main menu)<br>
+		• Search (filter by name)<br>
+		• Triple fusion button<br>
+		• Shooter fusion button<br>
+		• Import .qball/block editor XML button (for custom balls)<br>
+		• Grouped balls button (spawn multiple balls in one side, 2-11 balls)<br>
+		• Fusion button<br>
+		• Settings<br>
+		<h3 class="title-wiki3">Settings</h3>
 		The settings offer numerous things:<br>
 		• An "Enter Code" button to enter codes for secret balls into<br>
 		• block health presets (6) alongside the ability to manually change them<br>
 		• a button to change how many balls appear on each side (left, right) of the arena<br>
 		• an "Experiments" button with the only option being interpolation<br>
 		• and a "Debug mode" button that unlocks Null<br>
-		<br>The balls, once selected, can also be adjusted for:<br>
-		• Speed (speed multiplier, default 1)<br>
-		• Size (default 100)<br>
-		• Gravity (gravity multiplier, default -5)<br>
 		<!-- -------------------- -->
 		<div class="splitter"></div>
+		<aside class="infobox" style="width: auto;"><img src="../../media/Mo5a1zPQWQ.png" style="width: 280px;" alt="">Ball fight arena</aside>
 		<h2 class="title-wiki2">Balls</h2>
 		<div class="notice information"><span>Information<br>
 		<sup>△</sup> no voiceline when selecting ball<br>
@@ -64,23 +84,33 @@
 		<details open><summary>show balls</summary><table>
 		<tr><th>Name</th><th>Brief description</th><th>Notes</th><th>BRG equivalent</th></tr>
 		<tr><td>Speedy</td><td>moves faster each hit</td><td>speed affects both axes</td><td>speed; different in what axes are affected</td></tr>
-		<tr><td>Grower</td><td>grows each hit</td><td>c</td><td>grow, Grower clamps when larger than its area</td></tr>
+		<tr><td>Grower</td><td>grows each hit</td><td></td><td>grow, Grower clamps when larger than its area</td></tr>
 		<tr><td>Slammy</td><td>linear damage increase (1, 2, 3, ...)</td><td></td><td>-</td></tr>
 		<tr><td>Duplicator</td><td>clones itself every 6 seconds</td><td>can lag</td><td>duplicate, spawns in a pack of 4 instead</td></tr>
 		<tr><td>Gravitron</td><td>increases gravity each hit</td><td></td><td>gravit</td></tr>
-		<tr><td>Lazer</td><td>deals damage by laser instead, frequency increases each hit</td><td>c</td><td>-</td></tr>
+		<tr><td>Lazer</td><td>deals damage by laser instead, frequency increases each hit</td><td></td><td>-</td></tr>
 		<tr><td>Poison</td><td>poisons the block it hits, more DPS per hit</td><td></td><td>-</td></tr>
 		<tr><td>Splodey</td><td>throws more bombs with more hits</td><td>higher numbers have bigger bombs, likely to reduce lag<br>bomb count doesn't scale in fusions</td><td>-</td></tr>
 		<tr><td>Sticky</td><td>sticks to blocks longer each hit</td><td></td><td>stick</td></tr>
-		<tr><td>Drilly</td><td>spawns drills that go through each block, drill drag increases each hit</td><td></td><td>d</td></tr>
+		<tr><td>Drilly</td><td>spawns drills that go through each block, drill drag increases each hit</td><td></td><td></td></tr>
 		<tr><td>Orbital<sup>△</sup></td><td>spawns smaller balls that orbit around the main one and deal damage</td><td>orbit ball count scales in fusions</td><td>-</td></tr>
-		<!-- <tr><td>a</td><td>b</td><td>c</td><td>d</td></tr>
-		<tr><td>a</td><td>b</td><td>c</td><td>d</td></tr>
-		<tr><td>a</td><td>b</td><td>c</td><td>d</td></tr>
-		<tr><td>a</td><td>b</td><td>c</td><td>d</td></tr>
-		<tr><td>a</td><td>b</td><td>c</td><td>d</td></tr>
-		<tr><td>a</td><td>b</td><td>c</td><td>d</td></tr>
-		<tr><td>a</td><td>b</td><td>c</td><td>d</td></tr>-->
+		<tr><td>Disturber</td><td>5 damage each hit, heals other side's blocks more each hit</td><td>-</td><td>-</td></tr>
+		<tr><td>Piercer</td><td>affects all blocks on its side</td><td></td><td>-</td></tr>
+		<tr><td>Charger</td><td>charges and deals damage on discharge, delay decreases each hit</td><td>-</td><td>bolt, similar in movement (bolt always bolts down)</td></tr>
+		<tr><td>Gambler</td><td>randomly increases or decreases its damage</td><td></td><td>-</td></tr>
+		<tr><td>Lotto</td><td>more extreme Gambler</td><td></td><td>-</td></tr>
+		<tr><td>Cannonball</td><td>double damage increase (1, 3, 5, ...), deals damage on both sides</td><td></td><td>-</td></tr>
+		<tr><td>Freezing</td><td>freezes other side's ball(s) every 2 seconds</td><td>almost the same color as player</td><td>-</td></tr>
+		<tr><td>Grappler</td><td>pulls hit block upward</td><td>can hit block each frame when pulled onto ceiling</td><td>-</td></tr>
+		<tr><td>Sun</td><td>adds a laser to itself each hit</td><td></td><td>-</td></tr>
+		<tr><td>Time Ball<sup>△</sup><sup>◇</sup></td><td>has a timer before destroying current block</td><td>timer affects one at a time</td><td>-</td></tr>
+		<tr><td>Playable<sup>△</sup><sup>◇</sup></td><td>moves horizontally toward cursor</td><td>rather useless</td><td>player</td></tr>
+		<tr><td>Blue Sun<sup>△</sup><sup>◇</sup></td><td>similar to Sun, but blasts lasers for a short time, damage increases by 20 each time</td><td>suggested from someone else's block breaker simulations</td><td>-</td></tr>
+		<tr><td>Swap<sup>△</sup><sup>◇</sup></td><td>swaps its and the other side's blocks</td><td>despite the name, it's not the same as swap</td><td>-</td></tr>
+		<tr><td>Basic Ball</td><td>deals 1 damage, no special</td><td>i see no reason to call it basic BALL</td><td>basic</td></tr>
+		<tr><td>Slowy<sup>△</sup></td><td>slower each hit</td><td></td><td>-</td></tr>
+		<tr><td>Shrinker</td><td>shrinks each hit</td><td></td><td>shrink</td></tr>
+		<tr><td>Reciprocal</td><td>inverse Slammy</td><td></td><td>-</td></tr>
 
 		</table></details>
 		<!-- -------------------- -->
@@ -96,18 +126,72 @@
 		<tr><td>Infinity</td><td>kills blocks instantly</td><td></td><td>-</td></tr>
 		<tr><td>Tribonacci</td><td>deals damage determined by the tribonacci sequence</td><td></td><td>-</td></tr>
 		<tr><td>Tribonacci Constant</td><td>multiplies damage by said constant (about 1.8392867552...)</td><td></td><td>-</td></tr>
-		<tr><td>Tripler</td><td>triples damage</td><td></td><td>-</td></tr>
+		<tr><td>Tripler<sup>△</sup><sup>◇</sup></td><td>triples damage</td><td></td><td>-</td></tr>
 		<tr><td>Lucas</td><td>follows the Lucas sequence as damage</td><td></td><td>-</td></tr>
 		<tr><td>Exponential</td><td>hits^hits damage</td><td></td><td>-</td></tr>
 		<tr><td>Prime</td><td>deals the next prime number as damage per hit</td><td>Infiniprime freezes the game</td><td>-</td></tr>
 		<tr><td>Silver ratio</td><td>multiplies damage by the silver ratio (1+√2)</td><td></td><td>-</td></tr>
 		<tr><td>Pell</td><td>damage follows the Pell sequence</td><td></td><td>-</td></tr>
 		<tr><td>Bronze Ratio</td><td>multiplies damage by the bronze ratio ((3+√13)/2)</td><td></td><td>-</td></tr>
-		<tr><td>Pi</td><td>damage is the digits of π (inclusive 3), count increases with hits</td><td></td><td>-</td></tr>
+		<tr><td>Pi</td><td>damage is the digits of π (inclusive 3), count increases with hits</td><td></td><td><a href="../balls/pi.html">pi</a></td></tr>
 		<tr><td>Divider</td><td>halves hit block's health</td><td></td><td>-</td></tr>
-		<tr><td>Collatz</td><td>takes the hit block's health as input for the Collatz formula and sets the output as health</td><td>when block health is 1 it breaks on next hit</td><td>-</td></tr>
+		<tr><td>Collatz<sup>△</sup><sup>◇</sup></td><td>takes the hit block's health as input for the Collatz formula and sets the output as health</td><td>when block health is 1 it breaks on next hit</td><td>-</td></tr>
+		<tr><td>Square</td><td>damage dealt is squared</td><td>appears as a square, makes fusions square-shaped</td><td>-</td></tr>
+		<tr><td>Metallic Ratio<sup>△</sup><sup>◇</sup></td><td>can be set to any metallic ratio</td><td>inputs 0-3 have their dedicated balls, setting Metallic Ratio to any of those defaults to the avaliable ones (0 being Basic Ball)</td><td>-</td></tr>
+		<tr><td>Function</td><td>has a lot of attributes to scale with a function</td><td>x = block hits, y = elapsed arena time</td><td>-</td></tr>
+		<tr><td>Polynacci<sup>△</sup></td><td>can be any n-nacci sequence</td><td><2 defaults to Basic Ball, 2 is Fibonacci, 3 is Tribonacci</td><td></td></tr>
+		<tr><td>Polynacci Constant<sup>△</sup></td><td>can be any n-nacci constant (ratio of consecutive n-nacci terms)</td><td>same as Polynacci</td><td>-</td></tr>
+		<!--<tr><td>a</td><td>b</td><td>c</td><td>-</td></tr>
+		<tr><td>a</td><td>b</td><td>c</td><td>-</td></tr>
+		<tr><td>a</td><td>b</td><td>c</td><td>-</td></tr>
+		<tr><td>a</td><td>b</td><td>c</td><td>-</td></tr>
+		<tr><td>a</td><td>b</td><td>c</td><td>-</td></tr>
+		<tr><td>a</td><td>b</td><td>c</td><td>-</td></tr>
+		<tr><td>a</td><td>b</td><td>c</td><td>-</td></tr>
+		<tr><td>a</td><td>b</td><td>c</td><td>-</td></tr>
+		<tr><td>a</td><td>b</td><td>c</td><td>-</td></tr>-->
 
 		</table></details>
+		
+		<br><p>Weaponballs deal damage with their weapons (that spin around its ball) instead of themselves, most of them freezing for a small time when their weapon hits a block. Most names explain what weapon each weaponball has.</p>
+		<details open><summary>show weaponballs</summary><table>
+		<tr><th>Name</th><th>Brief description</th><th>Notes</th></tr>
+		<tr><td>Sword</td><td>sword deals more damage each hit (acts like Slammy)</td><td>Super spins faster</td></tr>
+		<tr><td>Dagger</td><td>weapon spins around itself faster each hit</td><td>Super has larger weapon</td></tr>
+		<tr><td>Spear</td><td>spear deals more damage and lengthens itself each hit</td><td>Super triples length scaling</td></tr>
+		<tr><td>Scythe</td><td>scythe poisons hit block(s)</td><td>Super has TWO scythes (amazing!!1!!)</td></tr>
+		<tr><td>Bow</td><td>fired arrow amount increases each hit</td><td>throws an odd number of arrows (3, 5, 7, ...)</td></tr>
+		<tr><td>Scepter</td><td>damages hit block and heals other side's top block</td><td></td></tr>
+		<tr><td>Unarmed</td><td>gains more speed which contributes to damage</td><td>Super moves similar to float</td></tr>
+		<tr><td>Staff<sup>△</sup><sup>◇</sup></td><td>TBA</td><td>supposed to throw fireballs, broken</td></tr>
+		<tr><td>Wrench</td><td>spawns minishooters that rotate and shoot, weapon doesn't deal damage</td><td>Super has trishot minishooters</td></tr>
+		<tr><td>Katana</td><td>katana deals more slices each hit</td><td></td></tr>
+		<tr><td>Flask</td><td>throws flasks which break into damaging areas, damage increases each hit</td><td>Super spins faster and damage area scales more</td></tr>
+		<tr><td>Lance<sup>△</sup><sup>◇</sup></td><td>jousts periodically, damage increases each hit</td><td>Super jousts more frequently and slower</td></tr>
+		<tr><td>Grimoire</td><td>spawns limited-health minions when its book hits a block, minion health increases each hit</td><td></td></tr>
+		<tr><td>Axe<sup>△</sup><sup>◇</sup></td><td>deals damage, crit chance increases each hit</td><td></td></tr>
+		<tr><td>Crossbow<sup>△</sup><sup>◇</sup></td><td>shoots one arrow at a time, damage increases each hit</td><td>in ball race game as "buff dagger" (secret ball)</td></tr>
+		<tr><td>Lightsaber</td><td>damage dealt when weapon touches block, frequency increases each ball hit</td><td></td></tr>
+		<tr><td>Stick</td><td>stick deals 1 damage on block hit</td><td></td></tr>
+		<tr><td>Super Hammer<sup>△</sup><sup>◇</sup></td><td>spins faster and deals more damage each hit</td><td>apparently lacks a non-super variant</td></tr>
+		<!-- <tr><td>a</td><td>b</td><td>c</td></tr> -->
+
+		</table></details>
+		
+		<br><p>These don't fit anywhere.</p>
+		<details open><summary>show other balls</summary><table>
+		<tr><th>Name</th><th>Brief description</th><th>Notes</th><th>BRG equivalent</th></tr>
+		<tr><td>Ultra<sup>△</sup><sup>◇</sup></td><td>damage increases each tick</td><td></td><td>-</td></tr>
+		<tr><td>Egg</td><td>has limited health, deals 1 damage each hit</td><td></td><td>-</td></tr>
+		<tr><td>EVERYONE<sup>△</sup><sup>◇</sup></td><td>spawns a bunch of fusions and normal balls</td><td></td><td>-</td></tr>
+		<tr><td>Billiard<sup>△</sup><sup>◇</sup></td><td>can be set to deal any amount of damage</td><td>has sprites for billiard 1-16 balls</td><td>-</td></tr>
+		<tr><td>Custom<sup>△</sup><sup>◇</sup></td><td>can act as a fusion of any ball</td><td>must select at least 3 balls</td><td>allball, no minimum constraint</td></tr>
+		<tr><td>Program<sup>△</sup><sup>◇</sup></td><td>program any ball as you wish</td><td>has a text and block-based input</td><td>code (before v2.0)</td></tr>
+		<tr><td>Omniball<sup>△</sup><sup>◇</sup></td><td>can be <u>any</u> 2-ball fusion</td><td></td><td>-</td></tr>
+		<tr><td>Spawner<sup>△</sup><sup>◇</sup></td><td>spawns a ball each hit</td><td></td><td>omega</td></tr>
+
+		</table></details>
+		
 		<div class="splitter"></div>
 		<h1 class="title-wiki1">Trivia</h1>
 		• Selecting a ball has a voiceline play alongside it saying the ball's name; not each ball has one.
